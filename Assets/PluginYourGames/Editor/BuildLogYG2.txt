@@ -1,0 +1,3 @@
+﻿Build path: D:/Work/ЯндексИгры/LaserSiege/Yandex_Claude/Builds/WebGL
+Build number: 18
+PluginYG version: 2.0092

@@ -1,0 +1,45 @@
+# Unity — генерируется самим редактором
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.unityproj
+.vs/
+.vscode/
+.idea/
+.consulo/
+sysinfo.txt
+crashlytics-build.properties
+
+# Сборки и бэкапы
+/[Bb]uild/
+/[Bb]uilds/
+/Backups/
+/Всё по полкам/
+*.apk
+*.aab
+*.zip
+
+# Исходники арта (большие, в игру не идут)
+/ArtSource/
+
+# Инструменты: сборки dotnet, кэши, логи, данные бота
+Tools/**/bin/
+Tools/**/obj/
+__pycache__/
+*.pyc
+*.log
+Tools/BalanceBot/data/
+
+# Секреты
+.env
+*.key

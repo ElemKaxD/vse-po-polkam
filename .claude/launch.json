@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "webgl-test",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8766", "--directory", "C:/Users/baton/AppData/Local/Temp/claude/D--Work------------LaserSiege-Yandex-Claude/d5b2ba63-619f-416c-8759-9ee8c3f9de36/scratchpad/webgl6"],
+      "port": 8766
+    }
+  ]
+}

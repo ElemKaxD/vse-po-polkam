@@ -1,0 +1,691 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e178d78ac61e4d040871ec22783566a7, type: 3}
+  m_Name: SettingsYG2
+  m_EditorClassIdentifier: Assembly-CSharp::YG.InfoYG
+  Authorization:
+    playerPhotoSize: 1
+    authorized: 1
+    playerName: Player current
+    uniqueID: 000
+    playerPhoto: demo image
+    payingStatus: 0
+  AutoTranslateLangs:
+    domainAutoLocalization: com
+    languages:
+      ru: 1
+      en: 1
+      tr: 1
+      az: 0
+      be: 0
+      he: 0
+      hy: 0
+      ka: 0
+      et: 0
+      fr: 0
+      kk: 0
+      ky: 0
+      lt: 0
+      lv: 0
+      ro: 0
+      tg: 0
+      tk: 0
+      uk: 0
+      uz: 0
+      es: 0
+      pt: 0
+      ar: 0
+      id: 0
+      ja: 0
+      it: 0
+      de: 0
+      hi: 0
+    fonts:
+      defaultFont: []
+      ru: []
+      en: []
+      tr: []
+      az: []
+      be: []
+      he: []
+      hy: []
+      ka: []
+      et: []
+      fr: []
+      kk: []
+      ky: []
+      lt: []
+      lv: []
+      ro: []
+      tg: []
+      tk: []
+      uk: []
+      uz: []
+      es: []
+      pt: []
+      ar: []
+      id: []
+      ja: []
+      it: []
+      de: []
+      hi: []
+    fontsTMP:
+      defaultFont: []
+      ru: []
+      en: []
+      tr: []
+      az: []
+      be: []
+      he: []
+      hy: []
+      ka: []
+      et: []
+      fr: []
+      kk: []
+      ky: []
+      lt: []
+      lv: []
+      ro: []
+      tg: []
+      tk: []
+      uk: []
+      uz: []
+      es: []
+      pt: []
+      ar: []
+      id: []
+      ja: []
+      it: []
+      de: []
+      hi: []
+    fontsSizeCorrect:
+      ru: 
+      en: 
+      tr: 
+      az: 
+      be: 
+      he: 
+      hy: 
+      ka: 
+      et: 
+      fr: 
+      kk: 
+      ky: 
+      lt: 
+      lv: 
+      ro: 
+      tg: 
+      tk: 
+      uk: 
+      uz: 
+      es: 
+      pt: 
+      ar: 
+      id: 
+      ja: 
+      it: 
+      de: 
+      hi: 
+  BannerAdv:
+    simulationInEditor: 1
+    size: 100
+    color: {r: 0, g: 1, b: 0, a: 0.5}
+  Flags:
+    flags: []
+  InterstitialAdv:
+    showFirstAdv: 0
+    interAdvInterval: 60
+    postponeCallByFail: 0
+    postponeCallTimer: 10
+    labelAdvSimLabel: 0
+  Leaderboards:
+    enable: 1
+    saveScoreAnonymousPlayers: 1
+    listLBSim:
+    - technoName: test
+      entries: '1. Max: 10
+
+        2. Masha: 15
+
+        3. anonymous: 23
+
+        4.
+        Player 4: 30
+
+        5. Player current: 40
+
+        6. Player 6: 50
+
+        7.
+        Player 7: 60
+
+        8. Player 8: 70
+
+        9. Player 9: 80
+
+        10.
+        Player 10: 90'
+      isDefault: 0
+      isInvertSortOrder: 0
+      decimalOffset: 0
+      type: numeric
+      players:
+      - rank: 1
+        name: Max
+        score: 100
+        photo: demo image
+        uniqueID: 123
+        extraData: 
+      - rank: 2
+        name: Masha
+        score: 90
+        photo: demo image
+        uniqueID: 321
+        extraData: 
+      - rank: 3
+        name: anonymous
+        score: 80
+        photo: anonymous
+        uniqueID: 456
+        extraData: 
+      - rank: 4
+        name: Player 4
+        score: 70
+        photo: demo image
+        uniqueID: 321
+        extraData: 
+      - rank: 5
+        name: Player current
+        score: 60
+        photo: demo image
+        uniqueID: 000
+        extraData: 
+      - rank: 6
+        name: Player 6
+        score: 50
+        photo: demo image
+        uniqueID: 326
+        extraData: 
+      - rank: 7
+        name: Player 7
+        score: 40
+        photo: demo image
+        uniqueID: 327
+        extraData: 
+      - rank: 8
+        name: Player 8
+        score: 30
+        photo: demo image
+        uniqueID: 328
+        extraData: 
+      - rank: 9
+        name: Player 9
+        score: 20
+        photo: demo image
+        uniqueID: 329
+        extraData: 
+      - rank: 10
+        name: Player 10
+        score: 10
+        photo: demo image
+        uniqueID: 330
+        extraData: 
+      currentPlayer:
+        rank: 5
+        score: 60
+        extraData: 
+    - technoName: time
+      entries: '1. Max: 7123
+
+        2. Maria: 15321
+
+        3. anonymous: 62000
+
+        4.
+        Player 4: 122000
+
+        5. Player current: 127000
+
+        6. Player 6:
+        340000'
+      isDefault: 0
+      isInvertSortOrder: 1
+      decimalOffset: 0
+      type: numeric
+      players:
+      - rank: 1
+        name: Max
+        score: 7123
+        photo: demo image
+        uniqueID: 789
+        extraData: 
+      - rank: 2
+        name: Maria
+        score: 15321
+        photo: demo image
+        uniqueID: 987
+        extraData: 
+      - rank: 3
+        name: anonymous
+        score: 62000
+        photo: anonymous
+        uniqueID: 891
+        extraData: 
+      - rank: 4
+        name: Player 4
+        score: 122000
+        photo: demo image
+        uniqueID: 321
+        extraData: 
+      - rank: 5
+        name: Player current
+        score: 127000
+        photo: demo image
+        uniqueID: 000
+        extraData: 
+      - rank: 6
+        name: Player 6
+        score: 340000
+        photo: demo image
+        uniqueID: 321
+        extraData: 
+      currentPlayer:
+        rank: 5
+        score: 127000
+        extraData: 
+  Localization:
+    setLanguageMod: 1
+  Metrica:
+    enable: 0
+    metricaCounterID: 0
+    log: 1
+    useYandexMetrica: 1
+  OpenURL:
+    developerURL: https://yandex.ru/games/developer/25834
+    allGames:
+    - appID: 177895
+      title: "\u041F\u0430\u0434\u0435\u043D\u0438\u0435 \u0422\u0435\u043B\u0430
+        3D"
+      url: https://yandex.ru/games/app/177895
+      coverURL: https://avatars.mds.yandex.net/get-games/1881957/2a0000018ab6f8e6b8c3ec2b8c3bf7e5d596/pjpg128x128
+      iconURL: https://avatars.mds.yandex.net/get-games/1881957/2a0000018ab6f8e6b8c3ec2b8c3bf7e5d596/pjpg128x128
+    - appID: 341205
+      title: "\u041A\u0442\u043E \u043F\u043E\u0431\u0435\u0434\u0438\u0442? \u0421\u043E\u0437\u0434\u0430\u0439
+        \u0431\u0438\u0442\u0432\u0443!"
+      url: https://yandex.ru/games/app/341205
+      coverURL: https://avatars.mds.yandex.net/get-games/1881957/2a00000190318058b9a4d207de946818eaff/pjpg128x128
+      iconURL: https://avatars.mds.yandex.net/get-games/1881957/2a00000190318058b9a4d207de946818eaff/pjpg128x128
+    - appID: 191541
+      title: "\u0424\u0421\u0411 \u041E\u0442\u043A\u0440\u044B\u0432\u0430\u0439!"
+      url: https://yandex.ru/games/app/191541
+      coverURL: https://avatars.mds.yandex.net/get-games/11385414/2a00000190db848f31b9058ad84bfd435ed4/pjpg128x128
+      iconURL: https://avatars.mds.yandex.net/get-games/11385414/2a00000190db848f31b9058ad84bfd435ed4/pjpg128x128
+    - appID: 232236
+      title: "\u041A\u0440\u0443\u0442\u043E\u0439 \u0421\u043F\u0443\u0441\u043A
+        \u0413\u0422\u0410"
+      url: https://yandex.ru/games/app/232236
+      coverURL: https://avatars.mds.yandex.net/get-games/1890793/2a00000189c00383b5000f00c723ed0fa77c/pjpg128x128
+      iconURL: https://avatars.mds.yandex.net/get-games/1890793/2a00000189c00383b5000f00c723ed0fa77c/pjpg128x128
+  Payments:
+    durationPayPanel: 1
+    testBuyFail: 0
+    purshases:
+    - id: starter_pack
+      title: "\u0421\u0442\u0430\u0440\u0442\u043E\u0432\u044B\u0439 \u043D\u0430\u0431\u043E\u0440"
+      description: "1500 \u043C\u043E\u043D\u0435\u0442 + 10 \u043E\u0442\u043C\u0435\u043D
+        + 5 \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043E\u043A + \u0442\u0435\u043B\u0435\u0436\u043A\u0430
+        \u0432 \u0446\u0432\u0435\u0442\u0430\u0445"
+      imageURI: demo image
+      price: "99 \u20BD"
+      priceValue: 99
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: no_ads
+      title: "\u0411\u0435\u0437 \u0440\u0435\u043A\u043B\u0430\u043C\u044B"
+      description: "\u041E\u0442\u043A\u043B\u044E\u0447\u0430\u0435\u0442 \u0440\u0435\u043A\u043B\u0430\u043C\u0443
+        \u043C\u0435\u0436\u0434\u0443 \u0443\u0440\u043E\u0432\u043D\u044F\u043C\u0438
+        \u0438 \u0431\u0430\u043D\u043D\u0435\u0440 \u043D\u0430\u0432\u0441\u0435\u0433\u0434\u0430
+        + 500 \u043C\u043E\u043D\u0435\u0442"
+      imageURI: demo image
+      price: "199 \u20BD"
+      priceValue: 199
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: coins_s
+      title: "\u0413\u043E\u0440\u0441\u0442\u043A\u0430 \u043C\u043E\u043D\u0435\u0442"
+      description: "600 \u043C\u043E\u043D\u0435\u0442"
+      imageURI: demo image
+      price: "49 \u20BD"
+      priceValue: 49
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: coins_m
+      title: "\u041C\u0435\u0448\u043E\u043A \u043C\u043E\u043D\u0435\u0442"
+      description: "2000 \u043C\u043E\u043D\u0435\u0442 (+15%)"
+      imageURI: demo image
+      price: "129 \u20BD"
+      priceValue: 129
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: coins_l
+      title: "\u0421\u0443\u043D\u0434\u0443\u043A \u043C\u043E\u043D\u0435\u0442"
+      description: "5500 \u043C\u043E\u043D\u0435\u0442 (+30%)"
+      imageURI: demo image
+      price: "299 \u20BD"
+      priceValue: 299
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: coins_xl
+      title: "\u0413\u043E\u0440\u0430 \u043C\u043E\u043D\u0435\u0442"
+      description: "13000 \u043C\u043E\u043D\u0435\u0442 (+50%)"
+      imageURI: demo image
+      price: "599 \u20BD"
+      priceValue: 599
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: piggy
+      title: "\u041A\u043E\u043F\u0438\u043B\u043A\u0430 \u0435\u043D\u043E\u0442\u0430"
+      description: "\u0412\u0441\u0435 \u043C\u043E\u043D\u0435\u0442\u044B \u0438\u0437
+        \u043A\u043E\u043F\u0438\u043B\u043A\u0438 (\u0434\u043E 4000)"
+      imageURI: demo image
+      price: "99 \u20BD"
+      priceValue: 99
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: gems_30
+      title: "\u0413\u043E\u0440\u0441\u0442\u044C \u0430\u043B\u043C\u0430\u0437\u043E\u0432"
+      description: "30 \u0430\u043B\u043C\u0430\u0437\u043E\u0432"
+      imageURI: demo image
+      price: "29 \u20BD"
+      priceValue: 29
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: gems_90
+      title: "\u041C\u0435\u0448\u043E\u0447\u0435\u043A \u0430\u043B\u043C\u0430\u0437\u043E\u0432"
+      description: "90 \u0430\u043B\u043C\u0430\u0437\u043E\u0432 (+10 %)"
+      imageURI: demo image
+      price: "79 \u20BD"
+      priceValue: 79
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: gems_180
+      title: "\u041C\u0438\u0441\u043A\u0430 \u0430\u043B\u043C\u0430\u0437\u043E\u0432"
+      description: "180 \u0430\u043B\u043C\u0430\u0437\u043E\u0432 (+17 %)"
+      imageURI: demo image
+      price: "149 \u20BD"
+      priceValue: 149
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: gems_400
+      title: "\u0421\u0443\u043D\u0434\u0443\u0447\u043E\u043A \u0430\u043B\u043C\u0430\u0437\u043E\u0432"
+      description: "400 \u0430\u043B\u043C\u0430\u0437\u043E\u0432 (+29 %)"
+      imageURI: demo image
+      price: "299 \u20BD"
+      priceValue: 299
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: gems_850
+      title: "\u0421\u0443\u043D\u0434\u0443\u043A \u0430\u043B\u043C\u0430\u0437\u043E\u0432"
+      description: "850 \u0430\u043B\u043C\u0430\u0437\u043E\u0432 (+37 %)"
+      imageURI: demo image
+      price: "599 \u20BD"
+      priceValue: 599
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: gems_1800
+      title: "\u0422\u0435\u043B\u0435\u0436\u043A\u0430 \u0430\u043B\u043C\u0430\u0437\u043E\u0432"
+      description: "1800 \u0430\u043B\u043C\u0430\u0437\u043E\u0432 (+46 %)"
+      imageURI: demo image
+      price: "1190 \u20BD"
+      priceValue: 1190
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: gold_path
+      title: "\u0417\u043E\u043B\u043E\u0442\u043E\u0439 \u043F\u0443\u0442\u044C"
+      description: "\u0412\u0442\u043E\u0440\u0430\u044F \u0441\u0442\u0440\u043E\u043A\u0430
+        \u043D\u0430\u0433\u0440\u0430\u0434 \xAB\u0417\u0432\u0451\u0437\u0434\u043D\u043E\u0433\u043E
+        \u043F\u0443\u0442\u0438\xBB \u043D\u0430\u0432\u0441\u0435\u0433\u0434\u0430:
+        \u041A\u043E\u0442-\u0443\u043F\u0440\u0430\u0432\u043B\u044F\u044E\u0449\u0438\u0439,
+        \u0430\u043B\u043C\u0430\u0437\u044B, \u043C\u043E\u043B\u043E\u0442\u043A\u0438,
+        \u0441\u043A\u0438\u043D\u044B"
+      imageURI: demo image
+      price: "299 \u20BD"
+      priceValue: 299
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: house_boost
+      title: "\u041F\u0440\u043E\u0440\u0430\u0431"
+      description: "3 \u043C\u043E\u043B\u043E\u0442\u043A\u0430 (\u0441\u0442\u0440\u043E\u0439\u043A\u0430
+        \u0441\u0440\u0430\u0437\u0443) + 60 \u0430\u043B\u043C\u0430\u0437\u043E\u0432"
+      imageURI: demo image
+      price: "149 \u20BD"
+      priceValue: 149
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: helpers_pack
+      title: "\u041D\u0430\u0431\u043E\u0440 \u043F\u043E\u043C\u043E\u0449\u043D\u0438\u043A\u0430"
+      description: "10 \u043E\u0442\u043C\u0435\u043D + 5 \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043E\u043A"
+      imageURI: demo image
+      price: "79 \u20BD"
+      priceValue: 79
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: undo_24h
+      title: "\u041E\u0442\u043C\u0435\u043D\u044B \u0431\u0435\u0437 \u043B\u0438\u043C\u0438\u0442\u0430"
+      description: "\u0411\u0435\u0437\u043B\u0438\u043C\u0438\u0442\u043D\u044B\u0435
+        \u043E\u0442\u043C\u0435\u043D\u044B \u043D\u0430 24 \u0447\u0430\u0441\u0430"
+      imageURI: demo image
+      price: "49 \u20BD"
+      priceValue: 49
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: theme_night
+      title: "\u041D\u043E\u0447\u043D\u043E\u0439 \u043C\u0430\u0433\u0430\u0437\u0438\u043D"
+      description: "\u041D\u043E\u0447\u043D\u043E\u0439 \u0444\u043E\u043D, \u0434\u0432\u0435
+        \u0442\u0435\u043B\u0435\u0436\u043A\u0438, \u043D\u0435\u043E\u043D\u043E\u0432\u044B\u0439
+        \u043A\u043E\u043D\u0432\u0435\u0439\u0435\u0440, \u0441\u0442\u0435\u043B\u043B\u0430\u0436\u0438
+        \u0441\u0443\u043F\u0435\u0440\u043C\u0430\u0440\u043A\u0435\u0442\u0430"
+      imageURI: demo image
+      price: "149 \u20BD"
+      priceValue: 149
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: theme_winter
+      title: "\u041D\u043E\u0432\u043E\u0433\u043E\u0434\u043D\u044F\u044F \u044F\u0440\u043C\u0430\u0440\u043A\u0430"
+      description: "\u0417\u0438\u043C\u043D\u0438\u0439 \u0444\u043E\u043D, \u043D\u043E\u0432\u043E\u0433\u043E\u0434\u043D\u0438\u0435
+        \u0442\u0435\u043B\u0435\u0436\u043A\u0430, \u043A\u043E\u043D\u0432\u0435\u0439\u0435\u0440
+        \u0438 \u0441\u0442\u0435\u043B\u043B\u0430\u0436\u0438"
+      imageURI: demo image
+      price: "149 \u20BD"
+      priceValue: 149
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: theme_farm
+      title: "\u0424\u0435\u0440\u043C\u0435\u0440\u0441\u043A\u0438\u0439 \u0440\u044B\u043D\u043E\u043A"
+      description: "\u0424\u0435\u0440\u043C\u0435\u0440\u0441\u043A\u0438\u0439
+        \u0444\u043E\u043D \u0438 \u0442\u0435\u043B\u0435\u0436\u043A\u0430, \u0434\u0435\u0440\u0435\u0432\u044F\u043D\u043D\u044B\u0439
+        \u043A\u043E\u043D\u0432\u0435\u0439\u0435\u0440, \u0431\u0435\u0440\u0451\u0437\u043E\u0432\u044B\u0435
+        \u0441\u0442\u0435\u043B\u043B\u0430\u0436\u0438"
+      imageURI: demo image
+      price: "129 \u20BD"
+      priceValue: 129
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: set_gold
+      title: "\u0417\u043E\u043B\u043E\u0442\u043E\u0439 \u043C\u0430\u0433\u0430\u0437\u0438\u043D"
+      description: "\u0417\u043E\u043B\u043E\u0442\u044B\u0435 \u0442\u0435\u043B\u0435\u0436\u043A\u0430,
+        \u043A\u043E\u043D\u0432\u0435\u0439\u0435\u0440 \u0438 \u0441\u0442\u0435\u043B\u043B\u0430\u0436\u0438
+        + 3000 \u043C\u043E\u043D\u0435\u0442"
+      imageURI: demo image
+      price: "299 \u20BD"
+      priceValue: 299
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: helpers_big
+      title: "\u0411\u043E\u043B\u044C\u0448\u043E\u0439 \u043D\u0430\u0431\u043E\u0440"
+      description: "25 \u043E\u0442\u043C\u0435\u043D + 15 \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043E\u043A"
+      imageURI: demo image
+      price: "179 \u20BD"
+      priceValue: 179
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: builder_pack
+      title: "\u041D\u0430\u0431\u043E\u0440 \u0441\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044F"
+      description: "4000 \u043C\u043E\u043D\u0435\u0442 + 10 \u043E\u0442\u043C\u0435\u043D
+        + 5 \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043E\u043A"
+      imageURI: demo image
+      price: "199 \u20BD"
+      priceValue: 199
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: stickers_pack
+      title: "\u041D\u0430\u0431\u043E\u0440 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u043E\u043D\u0435\u0440\u0430"
+      description: "10 \u043F\u0430\u0447\u0435\u043A \u043D\u0430\u043A\u043B\u0435\u0435\u043A
+        + \u0437\u043E\u043B\u043E\u0442\u0430\u044F \u043D\u0430\u043A\u043B\u0435\u0439\u043A\u0430"
+      imageURI: demo image
+      price: "99 \u20BD"
+      priceValue: 99
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+    - id: sets_all
+      title: "\u0412\u0441\u0435 \u043E\u0444\u043E\u0440\u043C\u043B\u0435\u043D\u0438\u044F"
+      description: "\u0424\u0435\u0440\u043C\u0435\u0440\u0441\u043A\u0438\u0439,
+        \u043D\u043E\u0432\u043E\u0433\u043E\u0434\u043D\u0438\u0439, \u043D\u043E\u0447\u043D\u043E\u0439
+        \u0438 \u0437\u043E\u043B\u043E\u0442\u043E\u0439 \u043D\u0430\u0431\u043E\u0440\u044B
+        \u0440\u0430\u0437\u043E\u043C"
+      imageURI: demo image
+      price: "399 \u20BD"
+      priceValue: 399
+      priceCurrencyCode: RUB
+      currencyImageURL: https://yastatic.net/s3/games-static/static-data/images/payments/sdk/currency-icon-s@2x.png
+      consumed: 1
+  QuitGameEvent:
+    enable: 0
+    objectName: NameYourObject
+    methodName: NameYourMethod
+  RewardedAdv:
+    skipInterAdvAfterReward: 0
+    labelAdvSimLabel: 0
+  ServerTime:
+    manualDateSetup: 0
+    year: 2025
+    month: 6
+    day: 15
+    hour: 12
+    minute: 30
+    second: 30
+  Storage:
+    saveLocal: 0
+    saveCloud: 1
+    flush: 0
+  Basic:
+    platform: {fileID: 11400000, guid: c402325b030b7754cbb47d9497ba3d6d, type: 2}
+    autoApplySettings: 0
+    autoPauseGame: 1
+    editTimeScale: 1
+    editEventSystem: 1
+    autoGRA: 0
+    logInEditor: 1
+    archivingBuild: 1
+    autoDefineSymbols: 1
+    syncInitSDK: 0
+    loadSceneIfSDKLate: 0
+    loadSceneIndex: 0
+    initDelaySimulation: 0
+    buildNumber: 18
+  Simulation:
+    device: 0
+    language: ru
+    enableInterAdv: 1
+    advIntervalSimulation: 60
+    durationAdv: 0.5
+    loadAdv: 0
+    testFailAds: 0
+    pauseOnFocusGame: 0
+  Templates:
+    logoImageFormat: 1
+    backgroundImgFormat: 4
+    gradientBackgroundByLoadGame:
+      radial: 0
+      angleInclination: 140
+      color1: {r: 1, g: 0.831, b: 0.149, a: 1}
+      color2: {r: 0.36, g: 0.09, b: 1, a: 1}
+    customProgressBar: 1
+    progressBarSettigs:
+      round: 1
+      roundAngle: 10
+      width: 30
+      height: 24
+      color1: {r: 0.25, g: 0.6392, b: 1, a: 1}
+      color2: {r: 1, g: 0.831, b: 0.149, a: 0.7}
+    fixedAspectRatio: 0
+    aspectRatio: 16/9
+    disableForMobile: 1
+    fillBackground: 0
+    imageBackground: 0
+    imageName: background.jpg
+    gradientBackgroundByAspectRatio:
+      radial: 0
+      angleInclination: 140
+      color1: {r: 1, g: 0.831, b: 0.149, a: 1}
+      color2: {r: 0.36, g: 0.09, b: 1, a: 1}
+    pixelRatioEnable: 0
+    pixelRatioValue: 1.3
+    developerBuild: 0
+  platformInfo:
+    ownHost: 0
+  platformToggles:
+    showFirstAdv: 0
+    interAdvInterval: 0
+    postponeCallByFail: 0
+    setLanguageMod: 0
+    useYandexMetrica: 0
+    metricaCounterID: 0
+    skipInterAdvAfterReward: 0
+    saveLocal: 0
+    saveCloud: 0
+    autoPauseGame: 0
+    selectWebGLTemplate: 1
+    runInBackground: 1
+    enableExceptions: 1
+    compressionFormat: 1
+    decompressionFallback: 1
+    autoGraphicsAPI: 1
+    managedStrippingLevel: 1
+    dataCaching: 0
+    colorSpace: 0
+    archivingBuild: 0
+    syncInitSDK: 0

@@ -1,0 +1,506 @@
+{
+ "_comment": "Раскладка предметов ремонта вокруг здания. Координаты холста 1920x1080 от центра сцены ремонта (слева от панели). kind: attach — на здании, ground — на земле (слот), none — только карточка. h — высота в px.",
+ "scene": {
+  "cx": -340,
+  "base": -330,
+  "xmin": -900,
+  "xmax": 250
+ },
+ "stores": {
+  "kiosk": {
+   "w": 520,
+   "districts": [
+    1,
+    2
+   ]
+  },
+  "corner": {
+   "w": 600,
+   "districts": [
+    3,
+    4
+   ]
+  },
+  "minimarket": {
+   "w": 700,
+   "districts": [
+    5,
+    6
+   ]
+  },
+  "supermarket": {
+   "w": 860,
+   "districts": [
+    7,
+    8,
+    9
+   ]
+  },
+  "hypermarket": {
+   "w": 880,
+   "districts": [
+    10,
+    11
+   ]
+  }
+ },
+ "slots": [
+  [
+   -1.0,
+   110,
+   20
+  ],
+  [
+   1.0,
+   110,
+   20
+  ],
+  [
+   -0.55,
+   0,
+   -80
+  ],
+  [
+   0.55,
+   0,
+   -80
+  ],
+  [
+   -1.0,
+   330,
+   0
+  ],
+  [
+   1.0,
+   330,
+   0
+  ],
+  [
+   -0.15,
+   0,
+   -110
+  ],
+  [
+   0.15,
+   0,
+   -110
+  ],
+  [
+   -1.0,
+   520,
+   40
+  ],
+  [
+   1.0,
+   520,
+   40
+  ]
+ ],
+ "items": {
+  "meta_d01_sign": {
+   "kind": "attach",
+   "x": -0.52,
+   "y": 0.42,
+   "h": 150
+  },
+  "meta_d01_lamp": {
+   "kind": "attach",
+   "x": 0.02,
+   "y": 0.44,
+   "h": 110
+  },
+  "meta_d01_flowers": {
+   "kind": "ground",
+   "slot": 2,
+   "h": 100
+  },
+  "meta_d01_fridge": {
+   "kind": "ground",
+   "slot": 1,
+   "h": 250
+  },
+  "meta_d01_chalkboard": {
+   "kind": "ground",
+   "slot": 3,
+   "h": 150
+  },
+  "meta_d02_awning": {
+   "kind": "none"
+  },
+  "meta_d02_counter": {
+   "kind": "none"
+  },
+  "meta_d02_bench": {
+   "kind": "ground",
+   "slot": 1,
+   "h": 130
+  },
+  "meta_d02_crates": {
+   "kind": "ground",
+   "slot": 2,
+   "h": 120
+  },
+  "meta_d02_price_board": {
+   "kind": "ground",
+   "slot": 3,
+   "h": 170
+  },
+  "meta_d02_tree_pot": {
+   "kind": "ground",
+   "slot": 0,
+   "h": 200
+  },
+  "meta_d03_door": {
+   "kind": "none"
+  },
+  "meta_d03_register": {
+   "kind": "none"
+  },
+  "meta_d03_shelves": {
+   "kind": "none"
+  },
+  "meta_d03_floor": {
+   "kind": "none"
+  },
+  "meta_d03_window": {
+   "kind": "none"
+  },
+  "meta_d03_doormat": {
+   "kind": "none"
+  },
+  "meta_d03_bell": {
+   "kind": "attach",
+   "x": 0.33,
+   "y": 0.4,
+   "h": 90
+  },
+  "meta_d04_fridge_wall": {
+   "kind": "ground",
+   "slot": 1,
+   "h": 250
+  },
+  "meta_d04_chest_freezer": {
+   "kind": "ground",
+   "slot": 3,
+   "h": 130
+  },
+  "meta_d04_hanging_plants": {
+   "kind": "none"
+  },
+  "meta_d04_ceiling_lamps": {
+   "kind": "attach",
+   "x": 0.0,
+   "y": 0.52,
+   "h": 70
+  },
+  "meta_d04_baskets": {
+   "kind": "ground",
+   "slot": 2,
+   "h": 120
+  },
+  "meta_d04_coffee_machine": {
+   "kind": "ground",
+   "slot": 0,
+   "h": 200
+  },
+  "meta_d04_wall_clock": {
+   "kind": "attach",
+   "x": 0.36,
+   "y": 0.62,
+   "h": 90
+  },
+  "meta_d04_mini_carts": {
+   "kind": "none"
+  },
+  "meta_d05_facade_sign": {
+   "kind": "none"
+  },
+  "meta_d05_auto_doors": {
+   "kind": "none"
+  },
+  "meta_d05_awning_green": {
+   "kind": "none"
+  },
+  "meta_d05_veg_stand": {
+   "kind": "ground",
+   "slot": 4,
+   "h": 190
+  },
+  "meta_d05_scales": {
+   "kind": "ground",
+   "slot": 3,
+   "h": 130
+  },
+  "meta_d05_produce_crates": {
+   "kind": "ground",
+   "slot": 2,
+   "h": 160
+  },
+  "meta_d05_trolley_bay": {
+   "kind": "ground",
+   "slot": 5,
+   "h": 200
+  },
+  "meta_d05_flower_stand": {
+   "kind": "none"
+  },
+  "meta_d06_oven": {
+   "kind": "none"
+  },
+  "meta_d06_bread_baskets": {
+   "kind": "ground",
+   "slot": 4,
+   "h": 200
+  },
+  "meta_d06_cart_row": {
+   "kind": "ground",
+   "slot": 5,
+   "h": 150
+  },
+  "meta_d06_parking": {
+   "kind": "none"
+  },
+  "meta_d06_bike_rack": {
+   "kind": "ground",
+   "slot": 0,
+   "h": 150
+  },
+  "meta_d06_bench_out": {
+   "kind": "ground",
+   "slot": 2,
+   "h": 120
+  },
+  "meta_d06_streetlamp": {
+   "kind": "ground",
+   "slot": 1,
+   "h": 300
+  },
+  "meta_d06_cafe_table": {
+   "kind": "ground",
+   "slot": 3,
+   "h": 130
+  },
+  "meta_d07_entrance_arch": {
+   "kind": "none"
+  },
+  "meta_d07_checkout_1": {
+   "kind": "none"
+  },
+  "meta_d07_checkout_2": {
+   "kind": "none"
+  },
+  "meta_d07_info_desk": {
+   "kind": "none"
+  },
+  "meta_d07_fish_counter": {
+   "kind": "ground",
+   "slot": 4,
+   "h": 150
+  },
+  "meta_d07_aquarium": {
+   "kind": "ground",
+   "slot": 5,
+   "h": 150
+  },
+  "meta_d07_gates": {
+   "kind": "ground",
+   "slot": 3,
+   "h": 140
+  },
+  "meta_d07_balloon_arch": {
+   "kind": "ground",
+   "slot": 2,
+   "h": 230
+  },
+  "meta_d07_ceiling_banners": {
+   "kind": "attach",
+   "x": 0.0,
+   "y": 0.62,
+   "h": 90
+  },
+  "meta_d08_racks": {
+   "kind": "ground",
+   "slot": 4,
+   "h": 230
+  },
+  "meta_d08_forklift": {
+   "kind": "ground",
+   "slot": 3,
+   "h": 170
+  },
+  "meta_d08_loading_belt": {
+   "kind": "ground",
+   "slot": 0,
+   "h": 130
+  },
+  "meta_d08_pallet_stack": {
+   "kind": "ground",
+   "slot": 2,
+   "h": 150
+  },
+  "meta_d08_dock": {
+   "kind": "none"
+  },
+  "meta_d08_staff_door": {
+   "kind": "none"
+  },
+  "meta_d08_truck": {
+   "kind": "ground",
+   "slot": 5,
+   "h": 190
+  },
+  "meta_d08_box_tower": {
+   "kind": "ground",
+   "slot": 1,
+   "h": 220
+  },
+  "meta_d08_hand_truck": {
+   "kind": "ground",
+   "slot": 7,
+   "h": 150
+  },
+  "meta_d09_cafe_counter": {
+   "kind": "ground",
+   "slot": 4,
+   "h": 190
+  },
+  "meta_d09_cafe_tables": {
+   "kind": "ground",
+   "slot": 2,
+   "h": 160
+  },
+  "meta_d09_flower_corner": {
+   "kind": "ground",
+   "slot": 5,
+   "h": 190
+  },
+  "meta_d09_coffee_bar": {
+   "kind": "ground",
+   "slot": 8,
+   "h": 190
+  },
+  "meta_d09_kids_ride": {
+   "kind": "ground",
+   "slot": 3,
+   "h": 130
+  },
+  "meta_d09_ice_cream_stand": {
+   "kind": "ground",
+   "slot": 1,
+   "h": 200
+  },
+  "meta_d09_juice_bar": {
+   "kind": "ground",
+   "slot": 9,
+   "h": 190
+  },
+  "meta_d09_plant_wall": {
+   "kind": "ground",
+   "slot": 0,
+   "h": 200
+  },
+  "meta_d09_sofa": {
+   "kind": "ground",
+   "slot": 6,
+   "h": 100
+  },
+  "meta_d10_night_sign": {
+   "kind": "attach",
+   "x": 0.0,
+   "y": 0.86,
+   "h": 150
+  },
+  "meta_d10_billboard": {
+   "kind": "attach",
+   "x": -0.36,
+   "y": 0.8,
+   "h": 170
+  },
+  "meta_d10_lit_windows": {
+   "kind": "none"
+  },
+  "meta_d10_roof_garden": {
+   "kind": "none"
+  },
+  "meta_d10_street_lamps": {
+   "kind": "ground",
+   "slot": 0,
+   "h": 280
+  },
+  "meta_d10_fountain": {
+   "kind": "ground",
+   "slot": 4,
+   "h": 200
+  },
+  "meta_d10_clock_tower": {
+   "kind": "ground",
+   "slot": 8,
+   "h": 320
+  },
+  "meta_d10_parked_cars": {
+   "kind": "ground",
+   "slot": 5,
+   "h": 150
+  },
+  "meta_d10_taxi": {
+   "kind": "ground",
+   "slot": 3,
+   "h": 130
+  },
+  "meta_d10_light_trees": {
+   "kind": "ground",
+   "slot": 1,
+   "h": 220
+  },
+  "meta_d11_food_stalls": {
+   "kind": "ground",
+   "slot": 4,
+   "h": 140
+  },
+  "meta_d11_food_tables": {
+   "kind": "ground",
+   "slot": 2,
+   "h": 150
+  },
+  "meta_d11_park_gate": {
+   "kind": "ground",
+   "slot": 8,
+   "h": 190
+  },
+  "meta_d11_carousel": {
+   "kind": "ground",
+   "slot": 5,
+   "h": 260
+  },
+  "meta_d11_playground": {
+   "kind": "ground",
+   "slot": 9,
+   "h": 220
+  },
+  "meta_d11_bandstand": {
+   "kind": "ground",
+   "slot": 1,
+   "h": 200
+  },
+  "meta_d11_bike_path": {
+   "kind": "ground",
+   "slot": 6,
+   "h": 100
+  },
+  "meta_d11_flower_beds": {
+   "kind": "ground",
+   "slot": 3,
+   "h": 130
+  },
+  "meta_d11_statue": {
+   "kind": "ground",
+   "slot": 0,
+   "h": 220
+  },
+  "meta_d11_fireworks": {
+   "kind": "ground",
+   "slot": 7,
+   "h": 130
+  }
+ }
+}
