@@ -1,0 +1,50 @@
+{
+  "archive": "game.zip",
+  "sha256": "89fd9887d8719ba2270c6606756f4c8c6d10d9dbc877f1bfca671291d7f332aa",
+  "files": {
+    "Build/01cbc3cf4686cdf6e88cd28ea74f9a39.data.unityweb": {
+      "bytes": 80274937,
+      "sha256": "033aaba35b3980d6e954be2d55baba2ec04a8f91c80ec2cd3e130a3c8e87f67b"
+    },
+    "Build/395ba91f9ece8ff7cc24eeedf9f032c6.wasm.unityweb": {
+      "bytes": 7913025,
+      "sha256": "96e7301a12aca3c94e8894d002bca0fedd1462293f0000acc0f3684ffcabd60f"
+    },
+    "Build/83602eb4e25f65271f9981d3a5759475.framework.js.unityweb": {
+      "bytes": 82698,
+      "sha256": "d5196b079fc7a442aa25f033f22771d5ab26572aa706716232149d3d051e2a4a"
+    },
+    "Build/8790b7ec6978b7755684c7650af998c7.loader.js": {
+      "bytes": 117893,
+      "sha256": "2c4fc1eae48ccc366b1cd07881947796633525238ee28f6ba461bdf913e0348c"
+    },
+    "Images/background.jpg": {
+      "bytes": 115954,
+      "sha256": "d093e4cbf794e1518ea550d98b17c4880310b9dc6020cfd52d3ab8fc04c7ce4a"
+    },
+    "Images/logo.png": {
+      "bytes": 369211,
+      "sha256": "3078f666a2ff4d21f438d51762598e086a5685555c9dcb998e75d72c7f714d32"
+    },
+    "index.html": {
+      "bytes": 43525,
+      "sha256": "b5ccd531a847df61900aa2082a03ceea963a88a62ee2f2206a181e060ad2a2c7"
+    },
+    "run_webgl.py": {
+      "bytes": 1797,
+      "sha256": "3ead40523635d97ab8b1262130b45960cc93505d8b94de70247cbc008840832a"
+    },
+    "StartGame.cmd": {
+      "bytes": 160,
+      "sha256": "19f9885c56d9bb7b3b9e824fe65dee1c25c3d659477b1a09cbdc58fbb47186b5"
+    },
+    "StreamingAssets/UnityServicesProjectConfiguration.json": {
+      "bytes": 886,
+      "sha256": "ff239bdceee3e92125698438d72c251a8ad7b7cd5c6f5d9129abe474cbfe5933"
+    },
+    "style.css": {
+      "bytes": 2785,
+      "sha256": "5cc0e4a8fb392066eb2ea36ae1a9ad8424ac660fde0597b5a31248846d6f42ab"
+    }
+  }
+}
