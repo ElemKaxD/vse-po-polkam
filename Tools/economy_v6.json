@@ -1,0 +1,378 @@
+{
+ "_comment": "Экономика v6 (04.10.2026): build — как в билде 24, v6 — финальное предложение. Симулятор Tools/economy_sim_v6.py.",
+ "build": {
+  "replay_pct": 40,
+  "x2_from100": 3,
+  "mode_coin_mult": [
+   1,
+   1.25,
+   1.5
+  ],
+  "mode_district_gems": [
+   0,
+   0,
+   0
+  ],
+  "streak_pct": [
+   0,
+   0,
+   5,
+   10,
+   10,
+   12,
+   15,
+   15,
+   18,
+   20,
+   25
+  ],
+  "cash_base": 20,
+  "cash_per_room": 3,
+  "cash_hours": 8,
+  "free_rewind": 99,
+  "continue_coins": [
+   150
+  ],
+  "prelevel_booster": 0,
+  "tips": 60,
+  "challenge_at": 8,
+  "challenge_coins": 80,
+  "challenge_week_coins": 400,
+  "quests_at": 8,
+  "quest_coins": 30,
+  "week_coins": 130,
+  "month_coins": 400,
+  "daily_login": [
+   40,
+   40,
+   0,
+   80,
+   0,
+   120,
+   250
+  ],
+  "star_path_coins_total": 6000,
+  "streak_chest": [
+   60,
+   150
+  ],
+  "stage_cost": [
+   0,
+   300,
+   720,
+   1200,
+   1700,
+   1900,
+   2200,
+   2250,
+   2600,
+   2600,
+   2850,
+   3000,
+   3250,
+   3500,
+   3750,
+   4000
+  ],
+  "stage_bonus": 100,
+  "house_build": [
+   0,
+   600,
+   600,
+   1200,
+   1200,
+   1200,
+   2500,
+   2500,
+   2500,
+   4000,
+   4000,
+   4000
+  ],
+  "house_unlock": [
+   11,
+   18,
+   24,
+   31,
+   36,
+   42,
+   51,
+   57,
+   64,
+   100,
+   115,
+   130
+  ],
+  "house_minutes": [
+   0,
+   15,
+   60,
+   180,
+   360,
+   600,
+   960,
+   1440,
+   2160,
+   3600,
+   5760,
+   10080
+  ],
+  "decor_base": [
+   120,
+   150,
+   200,
+   250,
+   300,
+   450
+  ],
+  "floor_mult": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "late_sink": false,
+  "ad_coins_base": 40,
+  "ad_coins_per_district": 10,
+  "ad_coins_per_day": 5,
+  "payer_pack": {
+   "rub": 49,
+   "coins": 600
+  },
+  "payer_patience_h": 0,
+  "starter": {
+   "rub": 99,
+   "coins": 1500
+  }
+ },
+ "v6": {
+  "replay_pct": 25,
+  "x2_from100": 2,
+  "mode_coin_mult": [
+   1,
+   1,
+   1
+  ],
+  "mode_district_gems": [
+   0,
+   3,
+   5
+  ],
+  "streak_pct": [],
+  "cash_base": 6,
+  "cash_per_room": 1,
+  "cash_hours": 6,
+  "free_rewind": 1,
+  "continue_coins": [
+   300,
+   700,
+   1400
+  ],
+  "prelevel_booster": 250,
+  "tips": 40,
+  "challenge_at": 15,
+  "challenge_coins": 40,
+  "challenge_week_coins": 200,
+  "quests_at": 12,
+  "quest_coins": 20,
+  "week_coins": 130,
+  "month_coins": 400,
+  "daily_login": [
+   30,
+   30,
+   0,
+   60,
+   0,
+   90,
+   200
+  ],
+  "star_path_coins_total": 4000,
+  "streak_chest": [
+   60,
+   150
+  ],
+  "stage_cost": [
+   0,
+   400,
+   900,
+   1000,
+   1100,
+   1300,
+   1500,
+   1800,
+   2000,
+   2200,
+   2400,
+   2600,
+   2850,
+   3100,
+   3350,
+   3600
+  ],
+  "stage_bonus": 100,
+  "house_build": [
+   0,
+   500,
+   600,
+   900,
+   1000,
+   1100,
+   1500,
+   1600,
+   1700,
+   2000,
+   2200,
+   2400
+  ],
+  "house_unlock": [
+   11,
+   16,
+   24,
+   31,
+   36,
+   42,
+   51,
+   57,
+   64,
+   100,
+   115,
+   130
+  ],
+  "house_minutes": [
+   0,
+   15,
+   60,
+   180,
+   360,
+   600,
+   960,
+   1440,
+   2160,
+   3600,
+   5760,
+   10080
+  ],
+  "decor_base": [
+   120,
+   150,
+   200,
+   250,
+   300,
+   450
+  ],
+  "floor_mult": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "late_sink": true,
+  "ad_coins_base": 40,
+  "ad_coins_per_district": 10,
+  "ad_coins_per_day": 5,
+  "payer_pack": {
+   "rub": 49,
+   "coins": 1200
+  },
+  "decor_offsets": [
+   0,
+   2,
+   5,
+   9,
+   14,
+   20
+  ],
+  "decor_w": [
+   2,
+   3,
+   3.5,
+   4.5,
+   5.5,
+   7
+  ],
+  "decor_room_mult": [
+   0.7,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "late_sink_cost": [
+   2000,
+   2500,
+   3000,
+   3500,
+   4000,
+   5000
+  ],
+  "payer_patience_h": 0,
+  "starter": {
+   "rub": 99,
+   "coins": 800
+  }
+ },
+ "players": {
+  "без рекламы и доната": {
+   "minutes": 15,
+   "sessions": 1,
+   "x2": 0.0,
+   "ads": false,
+   "skill": 0.0,
+   "payer": false,
+   "spend": 0.35,
+   "booster": 0.25,
+   "quests": 0.8
+  },
+  "смотрит рекламу": {
+   "minutes": 15,
+   "sessions": 2,
+   "x2": 0.7,
+   "ads": true,
+   "skill": 0.0,
+   "payer": false,
+   "spend": 0.4,
+   "booster": 0.4,
+   "quests": 0.9
+  },
+  "казуал (8 мин)": {
+   "minutes": 8,
+   "sessions": 1,
+   "x2": 0.3,
+   "ads": true,
+   "skill": -0.06,
+   "payer": false,
+   "spend": 0.3,
+   "booster": 0.2,
+   "quests": 0.5
+  },
+  "хардкор (45 мин)": {
+   "minutes": 45,
+   "sessions": 2,
+   "x2": 0.5,
+   "ads": true,
+   "skill": 0.07,
+   "payer": false,
+   "spend": 0.45,
+   "booster": 0.5,
+   "quests": 1.0
+  },
+  "платящий": {
+   "minutes": 20,
+   "sessions": 2,
+   "x2": 0.3,
+   "ads": false,
+   "skill": 0.0,
+   "payer": true,
+   "spend": 0.7,
+   "booster": 0.6,
+   "quests": 0.9
+  }
+ }
+}
