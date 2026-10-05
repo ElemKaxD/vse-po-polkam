@@ -1,0 +1,663 @@
+{
+ "_comment": "Экономика v7 (04.10.2026, после живого прохождения билда 24): build — билд 24, сверен с игрой (python Tools/economy_sim_v7.py --check); v7 — финальное предложение. Симулятор Tools/economy_sim_v7.py.",
+ "build": {
+  "replay_pct": 40,
+  "x2_from100": 3,
+  "mode_coin_mult": [
+   1,
+   1.25,
+   1.5
+  ],
+  "mode_district_gems": [
+   0,
+   0,
+   0
+  ],
+  "streak_pct": [
+   0,
+   0,
+   5,
+   10,
+   15,
+   15,
+   20,
+   20,
+   20,
+   25
+  ],
+  "cash_base": 20,
+  "cash_per_room": 3,
+  "cash_hours": 8,
+  "free_rewind": 99,
+  "continue_coins": [
+   150
+  ],
+  "prelevel_booster": 0,
+  "tips": 60,
+  "challenge_at": 8,
+  "challenge_coins": 80,
+  "challenge_week_coins": 400,
+  "quests_at": 8,
+  "quest_coins": 30,
+  "daily_login": [
+   40,
+   40,
+   0,
+   80,
+   0,
+   120,
+   250
+  ],
+  "star_path_coins_total": 6000,
+  "streak_chest": [
+   60,
+   150
+  ],
+  "stage_cost": [
+   0,
+   300,
+   720,
+   1200,
+   1700,
+   1900,
+   2200,
+   2250,
+   2600,
+   2600,
+   2850,
+   3000,
+   3250,
+   3500,
+   3750,
+   4000
+  ],
+  "stage_bonus": 100,
+  "house_build": [
+   0,
+   600,
+   600,
+   1200,
+   1200,
+   1200,
+   2500,
+   2500,
+   2500,
+   4000,
+   4000,
+   4000
+  ],
+  "house_unlock": [
+   11,
+   18,
+   24,
+   31,
+   36,
+   42,
+   51,
+   57,
+   64,
+   100,
+   115,
+   130
+  ],
+  "house_minutes": [
+   0,
+   15,
+   60,
+   180,
+   360,
+   600,
+   960,
+   1440,
+   2160,
+   3600,
+   5760,
+   10080
+  ],
+  "decor_base": [
+   120,
+   150,
+   200,
+   250,
+   300,
+   450
+  ],
+  "floor_mult": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "late_sink": false,
+  "ad_coins_base": 40,
+  "ad_coins_per_district": 10,
+  "ad_coins_per_day": 5,
+  "payer_pack": {
+   "rub": 49,
+   "coins": 600
+  },
+  "payer_patience_h": 0,
+  "starter": {
+   "rub": 99,
+   "coins": 1500,
+   "gems": 0
+  },
+  "streak_chests": {
+   "5": [
+    60,
+    1
+   ],
+   "10": [
+    150,
+    3
+   ],
+   "every": 5
+  },
+  "squirrel_coin_pct": [
+   0,
+   5,
+   10,
+   15,
+   25
+  ],
+  "squirrel_cash_pct": [
+   0,
+   10,
+   20,
+   30,
+   50
+  ],
+  "album_dept_pct": 2,
+  "album_dept_every": 14,
+  "album_dept_coins": 150,
+  "album_dept_gems": 0,
+  "dup_coins": 10,
+  "hedgehog_per_level": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "hammer_gems": 25,
+  "start_gems": 5,
+  "continue_steps": 1,
+  "week": {
+   "task_coins": 100,
+   "done_p": 0.95,
+   "chest_coins": 250,
+   "chest_gems": 15
+  },
+  "month": {
+   "task_coins": 300,
+   "done_p": 0.9,
+   "chest_coins": 800,
+   "chest_gems": 60
+  },
+  "league_week": 40,
+  "rush_coins": 30,
+  "challenge_gems": 2,
+  "challenge_week_gems": 15,
+  "star_path_gems_total": 60,
+  "continue_gems": [],
+  "slot2_rooms": [
+   3,
+   4,
+   5
+  ],
+  "coin_packs": {
+   "coins_s": [
+    49,
+    600
+   ],
+   "coins_m": [
+    129,
+    2000
+   ],
+   "coins_l": [
+    299,
+    5500
+   ],
+   "coins_xl": [
+    599,
+    13000
+   ]
+  }
+ },
+ "v7": {
+  "replay_pct": 25,
+  "x2_from100": 2,
+  "mode_coin_mult": [
+   1,
+   1,
+   1
+  ],
+  "mode_district_gems": [
+   0,
+   3,
+   5
+  ],
+  "streak_pct": [],
+  "cash_base": 6,
+  "cash_per_room": 1,
+  "cash_hours": 6,
+  "free_rewind": 1,
+  "continue_coins": {
+   "by_district": [
+    [
+     300,
+     700,
+     1400
+    ],
+    [
+     300,
+     700,
+     1400
+    ],
+    [
+     300,
+     700,
+     1400
+    ],
+    [
+     300,
+     700,
+     1400
+    ],
+    [
+     300,
+     700,
+     1400
+    ],
+    [
+     400,
+     900,
+     1800
+    ],
+    [
+     400,
+     900,
+     1800
+    ],
+    [
+     400,
+     900,
+     1800
+    ],
+    [
+     400,
+     900,
+     1800
+    ],
+    [
+     400,
+     900,
+     1800
+    ],
+    [
+     500,
+     1200,
+     2400
+    ],
+    [
+     500,
+     1200,
+     2400
+    ],
+    [
+     500,
+     1200,
+     2400
+    ],
+    [
+     500,
+     1200,
+     2400
+    ],
+    [
+     500,
+     1200,
+     2400
+    ]
+   ]
+  },
+  "prelevel_booster": {
+   "by_district": [
+    [
+     250
+    ],
+    [
+     250
+    ],
+    [
+     250
+    ],
+    [
+     250
+    ],
+    [
+     250
+    ],
+    [
+     350
+    ],
+    [
+     350
+    ],
+    [
+     350
+    ],
+    [
+     350
+    ],
+    [
+     350
+    ],
+    [
+     450
+    ],
+    [
+     450
+    ],
+    [
+     450
+    ],
+    [
+     450
+    ],
+    [
+     450
+    ]
+   ]
+  },
+  "tips": 40,
+  "challenge_at": 15,
+  "challenge_coins": 40,
+  "challenge_week_coins": 200,
+  "quests_at": 12,
+  "quest_coins": 20,
+  "daily_login": [
+   30,
+   30,
+   0,
+   60,
+   0,
+   90,
+   200
+  ],
+  "star_path_coins_total": 4000,
+  "streak_chest": [
+   60,
+   150
+  ],
+  "stage_cost": [
+   0,
+   400,
+   900,
+   1050,
+   1350,
+   1700,
+   2000,
+   2250,
+   2500,
+   2800,
+   3050,
+   3350,
+   3700,
+   4000,
+   4300,
+   4600
+  ],
+  "stage_bonus": 100,
+  "house_build": [
+   0,
+   500,
+   600,
+   900,
+   1000,
+   1100,
+   1500,
+   1600,
+   1700,
+   2000,
+   2200,
+   2400
+  ],
+  "house_unlock": [
+   11,
+   16,
+   24,
+   31,
+   36,
+   42,
+   51,
+   57,
+   64,
+   100,
+   115,
+   130
+  ],
+  "house_minutes": [
+   0,
+   15,
+   60,
+   180,
+   360,
+   600,
+   960,
+   1440,
+   2160,
+   3600,
+   5760,
+   10080
+  ],
+  "decor_base": [
+   120,
+   150,
+   200,
+   250,
+   300,
+   450
+  ],
+  "floor_mult": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "late_sink": true,
+  "ad_coins_base": 40,
+  "ad_coins_per_district": 10,
+  "ad_coins_per_day": 5,
+  "payer_pack": {
+   "rub": 49,
+   "coins": 1000
+  },
+  "decor_offsets": [
+   0,
+   2,
+   5,
+   9,
+   14,
+   20
+  ],
+  "decor_w": [
+   2,
+   3,
+   3.5,
+   4.5,
+   5.5,
+   7
+  ],
+  "decor_room_mult": [
+   0.7,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "late_sink_cost": [
+   2000,
+   2500,
+   3000,
+   3500,
+   4000,
+   5000
+  ],
+  "payer_patience_h": 0,
+  "starter": {
+   "rub": 99,
+   "coins": 800,
+   "gems": 50
+  },
+  "streak_chests": {
+   "5": [
+    40,
+    1
+   ],
+   "10": [
+    100,
+    2
+   ],
+   "every": 10
+  },
+  "squirrel_coin_pct": [
+   0,
+   3,
+   5,
+   8,
+   10
+  ],
+  "squirrel_cash_pct": [
+   0,
+   25,
+   50,
+   75,
+   100
+  ],
+  "album_dept_pct": 0,
+  "album_dept_every": 14,
+  "album_dept_coins": 100,
+  "album_dept_gems": 5,
+  "dup_coins": 10,
+  "hedgehog_per_level": [
+   0,
+   0.34,
+   0.5,
+   1,
+   1
+  ],
+  "hammer_gems": 0,
+  "start_gems": 5,
+  "continue_steps": 3,
+  "week": {
+   "task_coins": 40,
+   "done_p": 0.7,
+   "chest_coins": 110,
+   "chest_gems": 10
+  },
+  "month": {
+   "task_coins": 120,
+   "done_p": 0.6,
+   "chest_coins": 500,
+   "chest_gems": 40
+  },
+  "league_week": 40,
+  "rush_coins": 20,
+  "challenge_gems": 1,
+  "challenge_week_gems": 10,
+  "star_path_gems_total": 60,
+  "continue_gems": [
+   15,
+   35,
+   70
+  ],
+  "slot2_rooms": [
+   0,
+   1,
+   2
+  ],
+  "coin_packs": {
+   "coins_s": [
+    49,
+    1000
+   ],
+   "coins_m": [
+    129,
+    3000
+   ],
+   "coins_l": [
+    299,
+    8000
+   ],
+   "coins_xl": [
+    599,
+    18000
+   ]
+  }
+ },
+ "players": {
+  "без рекламы и доната": {
+   "minutes": 15,
+   "sessions": 1,
+   "x2": 0.0,
+   "ads": false,
+   "skill": 0.0,
+   "payer": false,
+   "spend": 0.35,
+   "booster": 0.25,
+   "quests": 0.8
+  },
+  "смотрит рекламу": {
+   "minutes": 15,
+   "sessions": 2,
+   "x2": 0.7,
+   "ads": true,
+   "skill": 0.0,
+   "payer": false,
+   "spend": 0.4,
+   "booster": 0.4,
+   "quests": 0.9
+  },
+  "казуал (8 мин)": {
+   "minutes": 8,
+   "sessions": 1,
+   "x2": 0.3,
+   "ads": true,
+   "skill": -0.06,
+   "payer": false,
+   "spend": 0.3,
+   "booster": 0.2,
+   "quests": 0.5
+  },
+  "хардкор (45 мин)": {
+   "minutes": 45,
+   "sessions": 2,
+   "x2": 0.5,
+   "ads": true,
+   "skill": 0.07,
+   "payer": false,
+   "spend": 0.45,
+   "booster": 0.5,
+   "quests": 1.0
+  },
+  "платящий": {
+   "minutes": 20,
+   "sessions": 2,
+   "x2": 0.3,
+   "ads": false,
+   "skill": 0.0,
+   "payer": true,
+   "spend": 0.7,
+   "booster": 0.6,
+   "quests": 0.9
+  }
+ }
+}
