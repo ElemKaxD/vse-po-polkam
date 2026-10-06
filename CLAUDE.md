@@ -15,7 +15,7 @@
 | Тестирование: чек-лист прогона, как смотреть скриншоты | [Docs/claude/testing.md](Docs/claude/testing.md) |
 | Уровни: генератор, солвер, план 150 уровней и режимы сложности | [Docs/claude/levels.md](Docs/claude/levels.md) |
 | Платформа Яндекс (YG2): реклама, покупки, лидерборды | [Docs/claude/platform.md](Docs/claude/platform.md) |
-| **Экономика**: v2 в коде; финальное предложение — **v7** (`Docs/Экономика_v7_финал_ВсёПоПолкам_05-10.md`, не внедрено) | [Docs/claude/economy.md](Docs/claude/economy.md) |
+| **Экономика**: v2 в коде; финальное предложение — **v7** (`Docs/Экономика_v7_финал_ВсёПоПолкам_05-10.md`, не внедрено); **что и в каком порядке внедрять — `Docs/Гайд_внедрения_для_Claude_ВсёПоПолкам_06-10.md`** | [Docs/claude/economy.md](Docs/claude/economy.md) |
 | Отзывы пользователя и открытые задачи | [Docs/claude/feedback.md](Docs/claude/feedback.md) |
 | Для человека: сцены, меню, консоль Яндекса | [README_AllOnShelves.md](README_AllOnShelves.md) |
 
